@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+    --cor-fundo: rgb(150, 240, 229);
+    --cor-paragrafo: #080F0F;
+    --cor-link: #393E41;             
+    --cor-titulo: #9BBDF9;
+    --cor-reserva2: rgb(241, 231, 188);
+    --cor-lista: rgba(219, 106, 53, 0.979);
+    --cor-reserva: #D8A47F;
+    --cor-topico: #F3B86C;
+    --fonte-paragrafo: Kanit, DM Sans, Verdana;
+    --fonte: DM Sans, Verdana;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-paragrafo);
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#container {
+    margin: 1em auto;  	
+	width: 650px;
+	background: none;
+}
+
+#rodape {
+    background-color: var(--cor-reserva2);
+    margin-bottom: -21px;
+}
+
+#titulo {
+    margin-top: -21px;
+    height: 70px;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--cor-reserva2);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: var(--cor-reserva2);
+    color: #000000;
+    font-family: var(--fonte);
+    font-size: medium;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+h1 {
+    font-family: var(--fonte);
+    color: var(--cor-titulo);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #4C95FC;
+    text-align: center;
+    padding-top: 14px;
+}
+
+h1.rodape {
+    font-family: var(--fonte);
+    color: var(--cor-titulo);
+    text-align: left;
+    padding-left: 2px;
+}
+
+p {
+    font-family: var(--fonte-paragrafo);
+    font-size: 25px;
+    color: var(--cor-paragrafo);
+}
+
+img.inicio {
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border-style: dashed;
+    border-color: var(--cor-titulo);
+    border-radius: 180px;
+}
+
+ul {
+    color: var(--cor-lista);
+    list-style: none;
+    font-size: 25px;
+    padding: 0%;
+}
+
+ul.rodape {
+    color: var(--cor-topico);
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0%;
+    padding-left: 10px;
+}
+
+a {
+    color: var(--cor-link);
+    text-decoration: none;
+}
+
+a.rodape {
+    color: var(--cor-reserva);
+    text-decoration: none;
+}
