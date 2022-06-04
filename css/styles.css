@@ -17,7 +17,7 @@
 body {
     background-color: var(--cor-fundo);
     font-family: var(--fonte-paragrafo);
-    width: 500px;
+    width: 600px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -30,7 +30,7 @@ body {
 
 #rodape {
     background-color: var(--cor-reserva2);
-    margin-bottom: -21px;
+    margin-bottom: -29px;
 }
 
 #titulo {
